@@ -4,7 +4,7 @@ Implementations of three uncertain-reasoning frameworks in MeTTa, run through Pe
 
 ## Contents
 
-### PLN_and_NARS/
+### PLN_and_NARS
 Implementation of deduction, induction, and abduction for two reasoning systems:
 - **PLN** (Probabilistic Logic Networks) — uses (strength, confidence) on both terms and relationships
 - **NARS** (Non-Axiomatic Reasoning System) — uses (frequency, confidence) on relationships only
@@ -17,7 +17,7 @@ The MeTTa file implements:
 - Simplified PLN forms for the high term-probability-uncertainty regime
 - Verification against the paper's three worked examples in Section 4
 
-### MLN/
+### MLN
 Generic Markov Logic Network engine in MeTTa following Richardson and Domingos (2006). The engine is domain-independent:
 - Formulas and weights are supplied as data
 - Worlds are encoded as integers (one bit per ground atom)
